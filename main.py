@@ -35,8 +35,8 @@ COLUMNS = [
 # --- 1. Data Loading and Initial Cleaning ---
 
 # Load the NSL-KDD training and testing datasets into Pandas DataFrames.
-train_file_path = r'dataset\KDDTrain+.txt'
-test_file_path = r'dataset\KDDTest+.txt'
+train_file_path = r'KDDTrain+.txt'
+test_file_path = r'KDDTest+.txt'
 
 train_data = pd.read_csv(train_file_path, header=None, names=COLUMNS)
 test_data = pd.read_csv(test_file_path, header=None, names=COLUMNS)
@@ -160,4 +160,5 @@ print(
                           y_pred_final,
                           labels=np.arange(len(label_names)),
                           target_names=label_names))
+
 
