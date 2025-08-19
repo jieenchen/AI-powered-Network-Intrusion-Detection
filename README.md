@@ -4,7 +4,7 @@ This project implements a network intrusion detection system using a Support Vec
 
 ## Dataset
 
-The model is trained on the [NSL-KDD dataset](https.www.kaggle.com/datasets/hassan06/nslkdd/data), which is an improved version of the original KDD'99 dataset. It is designed to solve some of the inherent problems of the KDD'99 dataset and is widely used for network intrusion detection research.
+The model is trained on the [NSL-KDD dataset](https://www.kaggle.com/datasets/hassan06/nslkdd/data), which is an improved version of the original KDD'99 dataset. It is designed to solve some of the inherent problems of the KDD'99 dataset and is widely used for network intrusion detection research.
 
 The dataset contains various types of network intrusions, which can be broadly categorized into the following groups:
 *   **Denial of Service (DoS):** Attacks that make a machine or network resource unavailable to its intended users.
